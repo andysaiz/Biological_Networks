@@ -18,17 +18,41 @@
   #File name: "Study_ST001192_ID_AN001984_metabolomics_pos_ion.txt"
 
 ##Folder Structure
-  #This repo contains:
-  #1) README.md (this file)
-
-  #2) Clean_Metabolomics_Data.R (processes raw data into tidy data, returns
-  #a CSV file called "Clean_Metabolomics_Data.csv")
-
-  #3) Heatmap.R (reads tidy data and outputs heatmap as TIFF file)
+  #Code
+    #Clean_Metabolomics_Data.R (processes raw data into tidy data, returns
+    #a CSV file called "Clean_Metabolomics_Data.csv")
+    #Heatmap.R (reads tidy data and outputs heatmap as TIFF file)
+  #Data
+   #Study_ST001192_ID_AN001984_metabolomics_pos_ion.txt (raw data)
+  #Figures
+  #Everything_You_Need
+    #Clean_Metabolomics_Data.R
+    #Heatmap.R
+    #Study_ST001192_ID_AN001984_metabolomics_pos_ion.txt
+    
 
 ##Instructions to Reproduce Figure
-#Download the repo (two R scripts and one .txt file) and run these commands
-#in the command line: 
+#1) Download the repo "Everything_You_Need"
+#2) Change your working directory on the command line to the repository you
+  #just downloaded
+#Run the following commands in the command line:
 
 Rscript Clean_Metabolomics_Data.R
 Rscript Heatmap.R
+
+##Dependencies:
+#R\4.2.1
+#R Packages:
+  R.utils 12.12.2
+  dplyr 1.0.10
+  data.table 1.14.6
+  gplots 3.1.3
+  reshape2 1.4.4
+  ggplot2 3.3.6
+  
+  
+  
+  
+
+
+
