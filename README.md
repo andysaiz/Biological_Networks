@@ -56,6 +56,14 @@ Rscript Heatmap.R
 repository #goes into your Downloads folder (Mac users). If that's the
 case, you can run #each R script separately in R Studio.
 
-##Dependencies: #R\\4.2.1 #R Packages: R.utils 12.12.2 dplyr 1.0.10
-data.table 1.14.6 gplots 3.1.3 reshape2 1.4.4 ggplot2 3.3.6
+##Dependencies: 
+R\\4.2.1 
+
+R Packages: 
+R.utils 12.12.2 
+dplyr 1.0.10
+data.table 1.14.6 
+gplots 3.1.3 
+reshape2 1.4.4 
+ggplot2 3.3.6
 ```
