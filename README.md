@@ -40,6 +40,10 @@
 Rscript Clean_Metabolomics_Data.R
 Rscript Heatmap.R
 
+#NOTE: you might run into issues with permissions, especially if the repository
+#goes into your Downloads folder (Mac users). If that's the case, you can run
+#each R script separately in R Studio.
+
 ##Dependencies:
 #R\4.2.1
 #R Packages:
@@ -50,6 +54,7 @@ Rscript Heatmap.R
   reshape2 1.4.4
   ggplot2 3.3.6
   
+
   
   
   
