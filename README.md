@@ -33,8 +33,8 @@
 
 ##Instructions to Reproduce Figure
 #1) Download the repo "Everything_You_Need"
-#2) Change your working directory on the command line to the repository you
-  #just downloaded
+#2) Change your working directory on the command line to the new, downloaded
+#repository subfolder called "Everything_You_Need"
 #Run the following commands in the command line:
 
 Rscript Clean_Metabolomics_Data.R
